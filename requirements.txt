@@ -27,7 +27,7 @@ plotly>=5.18.0
 scikit-learn>=1.4.0
 xgboost>=2.0.0
 lightgbm>=4.3.0
-
+tensorflow
 # ── Deep learning (optional) ──────────────────────────────────────────────────
 # Uncomment the line below to enable LSTM / Temporal CNN / Transformer models.
 # Requires Python 3.9–3.11 and a compatible OS (macOS, Linux, Windows).
