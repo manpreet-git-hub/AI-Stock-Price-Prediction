@@ -1,0 +1,119 @@
+# 📈 AI Stock Price Prediction (LSTM)
+
+A deep learning-based project that predicts stock prices using **Long Short-Term Memory (LSTM)** networks. This project leverages historical stock data to model temporal dependencies and forecast future trends.
+
+---
+
+## 🚀 Features
+
+* 📊 Historical stock data collection using Yahoo Finance
+* 🧠 LSTM-based deep learning model for time series prediction
+* 🔍 Data preprocessing and normalization
+* 📉 Visualization of actual vs predicted stock prices
+* ⚡ Scalable and modular code structure
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* TensorFlow / Keras
+* NumPy & Pandas
+* Matplotlib / Seaborn / Plotly
+* yFinance API
+
+---
+
+## 📂 Project Structure
+
+```
+AI-Stock-Price-Prediction/
+│── data/                 # Dataset files (if any)
+│── models/               # Saved models
+│── notebooks/            # Jupyter notebooks
+│── src/                  # Source code
+│── requirements.txt      # Dependencies
+│── README.md             # Project documentation
+```
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/manpreet-git-hub/AI-Stock-Price-Prediction.git
+cd AI-Stock-Price-Prediction
+```
+
+2. Create a virtual environment (recommended):
+
+```bash
+python -m venv venv
+source venv/bin/activate     # For Linux/Mac
+venv\Scripts\activate        # For Windows
+```
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Usage
+
+Run the main script or notebook:
+
+```bash
+python main.py
+```
+
+or open Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+---
+
+## 📊 Model Details
+
+* Uses **LSTM (Long Short-Term Memory)** neural network
+* Captures long-term dependencies in stock price data
+* Trained on historical closing prices
+* Data scaled using MinMaxScaler for better performance
+
+---
+
+## 📈 Results
+
+The model predicts stock price trends and compares them with actual values through visualization.
+
+*(Add your output graphs/screenshots here for better impact)*
+
+---
+
+## ⚠️ Disclaimer
+
+This project is for **educational purposes only**.
+Stock market predictions are inherently uncertain and should not be used as financial advice.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+---
+
+## 📬 Contact
+
+**Manpreet Kumar**
+GitHub: https://github.com/manpreet-git-hub
+
+---
+
+⭐ If you like this project, give it a star!
